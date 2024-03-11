@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width : 400px;
+}
+
+.container{
+    display: inherit;
+}
+
+.form-container{
+    display: inline-block;
+    /* display: grid; */
+    /* place-items: center; */
+    margin: auto;
+    padding: 3rem;
+    border-radius: 3rem;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.container > .form-container > h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    /* margin: auto !important; */
+}
+
+p{
+    display: flex;
+    justify-content: center;
+}
+
+.label-and-input{
+    display: flex ;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.7rem;
+}
+
+input{
+    width: 17rem;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    border-radius: 0.5rem;
+}
+
+form > h3 {
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+#locateMe{
+    margin: auto;
+    width: 50%
+}
+
+button{
+    background-color: transparent;
+    border: 2px solid #d17e1f;
+    border-radius: 0.5rem !important;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    margin-bottom: 1rem !important;
+}
+
+
+button:hover{
+    background-color: #d17e1f;
+}
+button[type="submit"]{
+    font-size: 1.6rem;
+}
+

@@ -37,20 +37,20 @@ document.getElementById('manualInputBtn').addEventListener('click', function () 
 
 function showSignUpForm() {
     document.getElementById('loginForm').style.display = 'none';
-    document.getElementById('signUpForm').style.display = 'block';
+    document.getElementById('signUpForm').style.display = 'inline-block';
 }
 
 function showLoginForm() {
     document.getElementById('signUpForm').style.display = 'none';
-    document.getElementById('loginForm').style.display = 'block';
+    document.getElementById('loginForm').style.display = 'inline-block';
 }
 
 // ... (unchanged) ...
 
 // Functions to open/close modals
 function openLoginModal() {
-    document.getElementById("loginModal").style.display = "block";
-    document.getElementById("blur").style.display = "block";
+    document.getElementById("loginModal").style.display = "inline-block";
+    document.getElementById("blur").style.display = "inline-block";
   }
   
   function closeLoginModal() {
@@ -59,8 +59,8 @@ function openLoginModal() {
   }
   
   function openSignUpModal() {
-    document.getElementById("signUpModal").style.display = "block";
-    document.getElementById("blur").style.display = "block";
+    document.getElementById("signUpModal").style.display = "inline-block";
+    document.getElementById("blur").style.display = "inline-block";
   }
   
   function closeSignUpModal() {
